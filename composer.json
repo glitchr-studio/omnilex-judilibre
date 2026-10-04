@@ -1,0 +1,45 @@
+{
+    "name": "omnilex/judilibre",
+    "type": "library",
+    "description": "Omnilex Judilibre: the decisions of the Cour de cassation and of the judicial courts from the Judilibre API (PISTE) - search with filters, one decision with its zones, the texts it applies and the case law it is brought together with, what changed since a date; pseudonymised, never re-identified.",
+    "keywords": [
+        "law",
+        "case-law",
+        "judilibre",
+        "cour-de-cassation",
+        "piste",
+        "ecli",
+        "omnilex"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Marco Meyer",
+            "email": "marco.meyer@glitchr.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "glitchr/omnilex": "^1.0@dev",
+        "symfony/http-client": "^6.4|^7.0|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnilex\\Judilibre\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnilex\\Judilibre\\Tests\\": "Tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

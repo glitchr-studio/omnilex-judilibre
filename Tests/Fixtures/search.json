@@ -1,0 +1,79 @@
+{
+ "page": 0,
+ "page_size": 10,
+ "query": {
+  "query": "expropriation",
+  "field": [
+   "expose",
+   "moyens",
+   "motivations"
+  ],
+  "operator": "or",
+  "type": [
+   "arret",
+   "qpc"
+  ],
+  "theme": [],
+  "chamber": [],
+  "formation": [],
+  "jurisdiction": [],
+  "publication": [
+   "c",
+   "b"
+  ],
+  "solution": [],
+  "date_start": "1970-01-01",
+  "date_end": "2021-01-01",
+  "sort": "score",
+  "order": "desc",
+  "page_size": 10,
+  "page": 0,
+  "resolve_references": false
+ },
+ "total": 341,
+ "next_page": "http://.../...&page=1",
+ "took": 14,
+ "max_score": 2428.1362,
+ "relaxed": false,
+ "results": [
+  {
+   "score": 0.6848325044168517,
+   "highlights": {
+    "motivations": [
+     "2016) fixe les indemnités revenant à la société Nour, depuis en liquidation judiciaire, à la suite de <em>l'expropriation</em>",
+     "indemnités allouées doivent couvrir l'intégralité du préjudice direct, matériel et certain causé par <em>l'expropriation</em>",
+     "Nour ne bénéficiait que d'une autorisation précaire d'exploiter son fonds sur la terrasse, objet de <em>l'expropriation</em>",
+     ";\r\n\r\n2°/ qu'en énonçant que cette autorisation était toujours en vigueur au moment de la procédure <em>d'expropriation</em>",
+     ", la cour d'appel en a exactement déduit que, le préjudice de cette société étant en lien avec <em>l'expropriation</em>"
+    ]
+   },
+   "id": "5fca7d162a251e6bf9c78514",
+   "jurisdiction": "cc",
+   "chamber": "civ3",
+   "number": "17-18.194",
+   "numbers": [
+    "17-18.194",
+    "16-21.165"
+   ],
+   "ecli": "ECLI:FR:CCASS:2018:C301117",
+   "formation": "fs",
+   "publication": [
+    "c",
+    "b"
+   ],
+   "decision_date": "2018-12-20",
+   "type": "arret",
+   "solution": "rejet",
+   "summary": "Le titulaire d'une autorisation temporaire d'occupation, en vigueur au moment de la procédure d'expropriation, est en droit d'obtenir l'indemnisation de son préjudice résultant de l'expropriation",
+   "themes": [
+    "Expropriation pour cause d'utilité publique",
+    "Indemnité",
+    "Préjudice",
+    "Réparation",
+    "Cas",
+    "Titulaire d'une autorisation temporaire d'occupation en vigueur"
+   ]
+  },
+  {}
+ ]
+}
